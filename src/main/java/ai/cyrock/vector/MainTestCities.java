@@ -7,6 +7,9 @@ import ai.cyrock.gigamap.vector.VectorIndexer;
 import org.eclipse.serializer.util.X;
 import org.eclipse.store.gigamap.types.GigaMap;
 
+/**
+ * Little demo of the vector index extension for the {@link GigaMap}.
+ */
 public class MainTestCities
 {
     public static void main(final String[] args)
