@@ -1,8 +1,10 @@
 # Early Access to CYROCK libraries
 
-## Installation (see pom.xml)
+## Installation, see also [pom.xml](./pom.xml)
 
-First, add the GitHub credentials to your settings.xml.
+First, add your GitHub credentials to the settings.xml.
+
+More info can be found in the official [GitHub documentation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#installing-a-package).
 
 ```xml
 <servers>
@@ -14,7 +16,7 @@ First, add the GitHub credentials to your settings.xml.
 </servers>
 ```
 
-Add following repository.
+Add the following repository.
 
 ```xml
 <repositories>
@@ -26,4 +28,4 @@ Add following repository.
 </repositories>
 ```
 
-Now you can use the CYROCK libraries.
+Now you can use the [CYROCK libraries](https://github.com/orgs/cyrock-ai/packages?repo_name=early-access).
